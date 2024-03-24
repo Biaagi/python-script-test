@@ -1,0 +1,7 @@
+/logs
+.idea
+
+core/__pycache__/
+core/exceptions/__pycache__/
+core/utils/__pycache__/
+inputs/__pycache__/
