@@ -3,9 +3,9 @@ DELAY_BETWEEN_TRADE = (5, 15)  # Execute delay between every trade (Buy -> Delay
 DELAY_BETWEEN_DEAL = (25, 60)  # Execute delay between full trade (Buy -> Sell -> Delay -> Buy -> Sell -> Delay ...)
 
 NEEDED_TRADE_VOLUME = 10  # volume to trade, if 0 it will never stop
-MIN_BALANCE_TO_LEFT = 50  # min amount to left on the balance, if 0, it is traded until the balance is equal to 0.
+MIN_BALANCE_TO_LEFT = 100  # min amount to left on the balance, if 0, it is traded until the balance is equal to 0.
 
-TRADE_AMOUNT = [50, 50]  # (works nearly from +-20%), minimum (5$) and maximum amount to trade in USD, if 0 it will trade on FULL balance
+TRADE_AMOUNT = [10, 10]  # (works nearly from +-20%), minimum (5$) and maximum amount to trade in USD, if 0 it will trade on FULL balance
 ALLOWED_ASSETS = ["SOL_USDC", "PYTH_USDC", "BONK_USDC", "JTO_USDC", "HNT_USDC", "SOL_USDC", "MOBILE_USDC", "BONK_USDC", "WIF_USDC", "JUP_USDC"]
 
 # Volatility moment
